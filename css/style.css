@@ -5,6 +5,79 @@
     --accent-colour:  #2196F3;
     --white-accent-colour: #FFFFFF;
     --footer-address-colour: rgba(255, 255, 255, 0.6);
+    --bg-secondary-color: #2F303A;
     
 }
+body {
+    font-family: Roboto;
+}
+ul {
+    list-style: none;
+}
 
+a{
+    text-decoration: none;
+}
+
+.logoweb{
+    color: var(--accent-colour);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.logostudio{
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+footer .logostudio{
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.site-nav .link {
+    color: var(--secondary-colour);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-colour);
+}
+
+.site-nav .link.current {
+    color: var(--accent-colour);
+}
+
+.header-address .link{
+    color: var(--primary-text-colour);
+}
+
+.header-address .link:hover,
+.header-address .link:focus {
+  color: var(--accent-colour);
+}
+
+.footer-address .link{
+    color: var(--footer-address-colour);
+}
+
+footer{
+    background-color: var(--bg-secondary-color) ;
+}
