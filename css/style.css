@@ -83,4 +83,5 @@ footer .logostudio{
 footer{
     background-color: var(--bg-secondary-color);
     color: #FFFFFF;
+    font-style: normal;
 }
