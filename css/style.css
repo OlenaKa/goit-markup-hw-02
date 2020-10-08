@@ -17,6 +17,7 @@ ul {
 
 a{
     text-decoration: none;
+    font-style: normal;
 }
 
 .logoweb{
@@ -40,6 +41,7 @@ a{
     /* identical to box height */
     letter-spacing: 0.03em;
 }
+
 
 footer .logostudio{
     color: #FFFFFF;
@@ -79,5 +81,6 @@ footer .logostudio{
 }
 
 footer{
-    background-color: var(--bg-secondary-color) ;
+    background-color: var(--bg-secondary-color);
+    color: #FFFFFF;
 }
